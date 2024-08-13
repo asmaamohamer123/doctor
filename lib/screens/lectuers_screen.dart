@@ -1,6 +1,7 @@
 import 'package:attendance/screens/Attendance/lecture_attendance.dart';
 import 'package:attendance/screens/assignmentpage.dart';
 import 'package:attendance/screens/lecturepage.dart';
+import 'package:attendance/screens/uploadfile.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_staggered_animations/flutter_staggered_animations.dart';
 
@@ -21,8 +22,10 @@ class _LecturesScreenState extends State<LecturesScreen> {
      int _selectedIndex = 0;
 
     final List<Widget> _pages = [
-    LecturePage(),
-    AssignmentPage(),
+   // LecturePage(),
+    //AssignmentPage(),
+    FileUploadPage(),
+    FileUploadPage(),
       // صفحة المحاضرات
    // Center(child: Text('هذه صفحة الاسايمنتات')),  // صفحة الاسايمنتات placeholder
   ];

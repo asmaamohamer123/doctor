@@ -145,8 +145,6 @@ String? _validatestudentPhoneNumber(String? value) {
                         child: Image.asset('assets/images/splash.png'),
                       ),
                       ),
-            
-            
                   const SizedBox(
                     height: 10.0,
                   ),
