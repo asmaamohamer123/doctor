@@ -38,7 +38,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       locale: const Locale("ar"),
       theme: lightTheme(),
-      home: HomeScreens(),
+      home: SplashScreen(),
     );
   }
 }

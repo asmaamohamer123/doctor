@@ -4,7 +4,7 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 
-import 'register_screen/Register_Screen.dart';
+ 
  
 class LoginScreen extends StatefulWidget {
   const LoginScreen({super.key});
@@ -222,59 +222,6 @@ class _LoginScreenState extends State<LoginScreen> {
                                 ),
                               ),
                             ),
-                          ),
-                        ),
-                      ),
-                    ),
-                    Row(
-                      mainAxisAlignment: MainAxisAlignment.center,
-                      children: [
-                        const Text(
-                          'ليس لديك حساب ؟',
-                          style: TextStyle(
-                            color: Colors.black,
-                            fontSize: 17,
-                          ),
-                        ),
-                        const SizedBox(
-                          width: 5.0,
-                        ),
-                        TextButton(
-                          onPressed: () {
-                            setState(() {
-                              var router = MaterialPageRoute(
-                                builder: (BuildContext context) =>
-                                    const Register_screen(),
-                              );
-                              Navigator.of(context).push(router);
-                            });
-                          },
-                          child: const Text(
-                            'سجل الان',
-                            style: TextStyle(
-                              color: Color.fromARGB(255, 13, 73, 194),
-                              fontSize: 17,
-                            ),
-                          ),
-                        ),
-                      ],
-                    ),
-                    Center(
-                      child: TextButton(
-                        onPressed: () {
-                          setState(() {
-                            var router = MaterialPageRoute(
-                              builder: (BuildContext context) =>
-                                  const PasswordReset(),
-                            );
-                            Navigator.of(context).push(router);
-                          });
-                        },
-                        child: const Text(
-                          'نسيت كلمه المرور؟',
-                          style: TextStyle(
-                            color: Color.fromARGB(255, 13, 73, 194),
-                            fontSize: 17,
                           ),
                         ),
                       ),

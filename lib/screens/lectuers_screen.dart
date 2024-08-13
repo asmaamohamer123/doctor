@@ -1,4 +1,4 @@
-import 'package:attendance/screens/Attendance/lecture_attendance.dart';
+//import 'package:attendance/screens/Attendance/lecture_attendance.dart';
 import 'package:attendance/screens/assignmentpage.dart';
 import 'package:attendance/screens/lecturepage.dart';
 import 'package:attendance/screens/uploadfile.dart';
