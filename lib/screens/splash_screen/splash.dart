@@ -1,15 +1,11 @@
  
 import 'dart:async';
 
-import 'package:attendance/screens/new_login.dart';
+import 'package:attendance/screens/new_login copy.dart';
 import 'package:attendance/screens/register_screen/Register_Screen.dart';
 import 'package:flutter/material.dart';
 
 //import '../login/new_login.dart';
-
-
- 
- 
 
 class SplashScreen extends StatefulWidget {
   //route name for our screen
